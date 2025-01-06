@@ -2,7 +2,7 @@
 
   var swiper = new Swiper('.mySwiper-2', {
     centeredSlides: true,
-    slidesPerView: 4,
+    slidesPerView: 5,
     loop: true,
     spaceBetween: 10,
     pagination: {
@@ -16,7 +16,7 @@
   
   var swiper = new Swiper('.mySwiper', {
     centeredSlides: true,
-    slidesPerView: 2,
+    slidesPerView: 3,
     loop: true,
     spaceBetween: 10,
     pagination: {
