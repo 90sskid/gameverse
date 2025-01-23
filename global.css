@@ -25,7 +25,9 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     font-family: var(--manrope);
-    background-color: var(--white);
+    /* background-color: #202C2E; */
+    background-image: url(./assets/logo/bg3.png);
+    background-size: cover;
 }
 
 /* utilities */
@@ -329,6 +331,24 @@ h6 {
 
 /* hero ends here */
 
+.features-icon{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 8px; 
+}
+
+.features-icon i {
+    font-size: 16px;
+    color: red; 
+}
+
+.features-icon p {
+    margin: 0; 
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--white);
+}
 /* featured games starts from here */
 
 .card img {
@@ -350,7 +370,7 @@ h6 {
 }
 
 .featured img{
-    border-radius: 50%;
+    border-radius: 20px;
 }
 .centered {
     position: absolute;
@@ -387,7 +407,7 @@ h6 {
 
 .compete {
     /* background-color: var(--purple); */
-    background-image: url(./assets/compete/bg.png);
+    /* background-image: url(./assets/compete/bg.png); */
     background-size: cover;
     background-repeat: no-repeat;
 }
